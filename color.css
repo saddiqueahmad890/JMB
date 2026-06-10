@@ -1,0 +1,97 @@
+ .btn--primary {
+     background-color: #707070 !important;
+     /* Change the background color to your desired shade of gray */
+     border-color: #707070 !important;
+     /* Optional: ensures the border matches the new color */
+     color: #ffffff !important;
+     /* Keeps the text white for contrast */
+ }
+
+ .btn--call {
+     color: #707070 !important;
+     /* Changes the text and icon color */
+     background-color: #ffffff;
+     /* Keeps the background white */
+     border-color: transparent;
+     /* Removes any unwanted borders */
+ }
+
+ .btn--call img,
+ .btn--call::before {
+     filter: grayscale(1) brightness(0.6) !important;
+ }
+
+ /* Main ribbon background */
+ h1.micro.mb-4 {
+     background-color: #707070 !important;
+     color: #ffffff !important;
+     /* Text color white rakhne ke liye */
+ }
+
+ /* Side cutouts ka color change karne ke liye */
+ h1.micro.mb-4::before,
+ h1.micro.mb-4::after {
+     border-color: #707070 !important;
+ }
+
+ /* Sirf background badge ka color #707070 karne ke liye */
+ .social-ratings {
+     background-color: #707070 !important;
+ }
+
+ /* Agar side ke cutouts (pseudo-elements) se ribbon bana hai, toh unka color bhi fix karein */
+ .social-ratings::before,
+ .social-ratings::after {
+     border-color: #707070 !important;
+ }
+
+ /* Andar ke text aur stars ka color readable (white/light blue) rakhne ke liye */
+ .social-ratings .social__item__desc p {
+     color: #ffffff !important;
+ }
+
+ .social-ratings .rating-stars path {
+     fill: #ffffff !important;
+ }
+
+ #gform_submit_button_4 {
+     background-color: #707070 !important;
+     border-color: #707070 !important;
+     /* Agar border match karni ho */
+ }
+ .hero-video {
+    width: 50% !important;
+    height: 100% !important;
+}
+
+.btn--call {
+    background-color: #707070 !important;
+    color: #ffffff !important;
+}
+.micro {
+    background-color: #707070 !important;
+}
+
+#menu-item-584 .sub-menu {
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Scrollbar styling */
+#menu-item-584 .sub-menu::-webkit-scrollbar {
+    width: 4px;
+}
+
+#menu-item-584 .sub-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+#menu-item-584 .sub-menu::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+#menu-item-584 .sub-menu::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
